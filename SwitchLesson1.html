@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script type="text/javascript">
+
+function myFunction() {
+var text;
+var fruits = document.getElementById("myInput").value;
+
+switch(Fruits){
+case "Banana":
+     text = "Banana is good";
+	 break;
+	
+case "Orange":
+      text = "I am not a fan of orange";
+	  break;
+	  
+case "Apple":
+      text = "I do like apple";
+	  break;
+	  
+case "Watermelon":
+      text = "Watermelon tastes good";
+	  break;
+	  
+default: text = "I have never heard of that fruit...";
+        break;
+}
+document.getElementById("para1").innerHTML = text;
+}
+</script>
+
+</head>
+
+
+<body>
+<script>
+// Names of my siblings
+ Snames = "Felix";
+
+switch (Snames)
+{
+case "John": document.write("Yes John, he is one of my siblings");
+     break;
+
+case "Gift": document.write("Yes Gift, he is one of my siblings");
+     break;
+	 
+case "Mary": document.write("Yes Mary, she is one of my siblings");
+     break;
+	 
+case "Felix": document.write("Yes Felix, he is one of my siblings");
+     break;
+	 
+default: document.write("No, that person is not one of my siblings");
+     break;
+	document.write("<br/>"); 
+}
+
+document.write("<br/>"); 
+var stagesInLife = 20;
+switch(stagesInLife)
+
+{
+case 3: document.write("I should be primary one");
+       break;
+
+case 11: document.write("I should be in grade seven");
+         break;
+		
+case 17: document.write("I should be in grade twelve");
+         break;
+	  
+case 20: document.write("I should be in my first year in the University");
+         break;
+	
+case 24: document.write("I should be graduating from the University");
+         break;
+		
+case 25: document.write("I should be employed");
+         break;
+		
+case 26: document.write("I should be settling down");
+         break;
+	   
+case 30: document.write("I should be having my own car");
+         break;
+		
+case 36: document.write("I should be having my own house");
+         break;
+		
+case 60: document.write("I should be have retired");
+         break;
+	   
+case 65: document.write("I should be having grandchildren");
+         break;
+		
+default: document.write("Not part of my plans");
+         break;
+}
+	  
+</script>
+<br>
+fruits: <input type="text" id="myInput" value="" />
+<input type="button" onclick="myFunction()" value="check" />
+<p id="para1"></p>
+
+
+</body>
+</html>

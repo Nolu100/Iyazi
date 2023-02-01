@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Using Switch Statement</title>
+<script type="text/javascript">
+
+function ChangeColor()
+
+{
+
+
+var text = document.getElementById("inp").value;
+switch(text){
+
+              case "red":
+			          document.getElementById("para1").style.color ="red";
+					  break;
+					  
+			  case "green":
+			        document.getElementById("para1").style.color ="green";
+					break;
+					
+			  case "blue":
+			        document.getElementById("para1").style.color ="blue";
+					break;
+					
+			  case "yellow":
+			        document.getElementById("para1").style.color = "yellow";
+					break;
+			        
+			  case "orange":
+			       document.getElementById("para1").style.color ="orange";
+				   break;
+				   
+			  case "grey":
+			       document.getElementById("para1").style.color ="grey";
+				   break; 
+				   
+			  case "pink":
+			       document.getElementById("para1").style.color ="pink";
+				   break;
+				   
+              case "brown":
+			       document.getElementById("para1").style.color ="brown";
+				   break;				   
+            }
+			
+}
+
+</script>
+			   
+</head>
+<body>
+
+<input type="text" id="inp" size=3 onchange="ChangeColor()" value="" />
+
+<p id="para1">Welcome to the world of IT</p>
+
+
+
+
+</body>
+</html>

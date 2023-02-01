@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Using if Statement</title>
+<script type="text/javascript">
+function CheckAge() {
+cadet = document.getElementById("age").value;
+results = document.getElementById("results").value;
+
+if(cadet >= 17 && cadet <= 20){}
+
+
+}
+</script>
+</head>
+
+
+<body>
+<script>
+cadet = 18;
+
+if(cadet > 20){document.write("Not Qualified");}
+else{document.write("Qualified");}
+
+
+//Min nd Max age of cadet
+
+document.write("<br/>");
+
+if(cadet >= 17 && cadet <= 20){document.write("Qualified");}
+else{document.write("Not Qualified");}
+
+</script>
+<form>
+Age : <input type="text" size=7 id= "age" value="" />
+<br/>
+Result : <input type="text" size=7 id= "age" value="" />
+<br/>
+<input type="button" onclick="CheckAge()" value="Check" />
+
+</body>
+
+</html>
